@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 3300;
+const port = 3333;
 
 // Importar rutas
 const indexRoute = require('./routes/indexRoute');
