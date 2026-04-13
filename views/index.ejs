@@ -44,89 +44,9 @@
   <!-- Propuesta de valor -->
 <section class="propuesta-de-valor_contenedor animated contenido">
     <div class="contenedor-titulo-propuesta">
-      <h2>Propuesta de valor</h2>
-    </div>
-  
-    <div class="grid-propuestaIcons animated">
-      <div class="propuesta-item">
-        <img class="img-propuesta" src="/images/logo-medalla.svg" alt="">
-        <p>Experiencia con <br> grandes marcas</p>
-      </div>
-      <div class="propuesta-item">
-        <img class="img-propuesta" src="/images/logo-escudo.svg" alt="">
-        <p>Calidad <br> garantizada</p>
-      </div>
-      <div class="propuesta-item">
-        <img class="img-propuesta" src="/images/logo-mecanica.svg" alt="">
-        <p>Producción <br> personalizada</p>
-      </div>
-      <div class="propuesta-item">
-        <img class="img-propuesta" src="/images/logo-hand.svg" alt="">
-        <p>Cumplimiento y <br> confianza</p>
-      </div>
-    </div>
-  </section>
-
-
-  
-<!-- HTML: Sección de Marcas con efecto Flip (clases personalizadas) -->
-<section class="seccion-marcas animated">
-  <div class="seccion-marcas__titulo">
-    <h2>Marcas que confían <br> en nosotros</h2>
-    <p>Ellos creen en nuestra calidad</p>
-  </div>
-
-  <div class="seccion-marcas__navegacion">
-    <button id="flecha-izquierda" class="navegacion__flecha">&#8592;</button>
-
-    <div class="seccion-marcas__contenedor" id="marcas-contenedor">
-      <!-- Marcas insertadas por JS -->
+      <h2>Prueba 1 holaaaaaaa</h2>
     </div>
 
-    <button id="flecha-derecha" class="navegacion__flecha">&#8594;</button>
-  </div>
-</section>
-
-    <!-- MOBILE -->
-<!-- Sección MOBILE -->
-<section class="seccion-marcas-mobail animated mobile-marcas">
-  <div class="seccion-marcas__titulo">
-    <h2>Marcas que confían <br> en nosotros</h2>
-    <p>Ellos creen en nuestra calidad</p>
-  </div>
-
-  <div class="contenedor-mobail" id="marcas-contenedor-mobail">
-    <!-- Se insertan tarjetas por JS -->
-  </div>
-
-  <div class="botones-mobail">
-    <button id="btn-anterior-mobail">Anterior</button>
-    <button id="btn-siguiente-mobail">Siguiente</button>
-  </div>
-</section>
-
-    
-    <!-- Comentarios -->
-    <section style="display: none;" class="contenedorComentarios animated contenido">
-        <h2> Testimonios de Clientes o Marcas</h2>
-
-        <div id="testimonios-container">
-            <!-- Aquí se insertarán los testimonios dinámicamente -->
-        </div>
-    </section>
-    <%- include('partials/footer') %> 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const cerrar = document.getElementById("cerrarAlerta");
-        const alerta = document.getElementById("alerta");
-        const contenido = document.querySelector(".contenido-alerta");
-    
-        cerrar.addEventListener("click", () => {
-          alerta.style.display = "none";
-          contenido.style.paddingTop = "0";
-        });
-      });
-    </script>
     
   
     <script src="/js/comentarios.js"></script>
